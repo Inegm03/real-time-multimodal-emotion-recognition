@@ -1,0 +1,15 @@
+ultralytics>=8.3
+opencv-python>=4.9
+numpy>=1.26
+pillow>=10.0
+scikit-learn>=1.4
+matplotlib>=3.8
+pyyaml>=6.0
+ipywidgets>=8.1
+jupyterlab>=4.0
+torch>=2.1
+transformers>=4.40
+scipy>=1.12
+insightface>=0.7.3
+onnxruntime-gpu>=1.19
+

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If this project supports your work, please cite the accompanying paper."
+title: "Real-Time Multimodal Emotion Recognition with YOLO11"
+type: software
+authors:
+  - family-names: "Negm"
+    given-names: "Ismail Ibrahim Ibrahim"
+date-released: 2026-06-30
+keywords:
+  - facial emotion recognition
+  - YOLO11
+  - WIDER FACE
+  - FER-2013
+  - HuBERT
+  - multimodal learning
+
