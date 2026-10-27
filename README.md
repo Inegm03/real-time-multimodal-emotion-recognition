@@ -123,7 +123,7 @@ Emotion recognition does not reveal a person's internal mental state with certai
 
 ## Paper
 
-The accompanying paper, [Real-Time Multimodal Emotion Recognition with YOLO11](paper/real-time-multimodal-emotion-recognition-yolo11.pdf), describes the method, measured FER results, system design, deployment trade-offs, and limitations in an IEEE-style format.
+The accompanying revised paper, [Real-Time Multimodal Emotion Recognition with YOLO11](paper/real-time-multimodal-emotion-recognition-v2.pdf), describes the method, measured FER and multimodal-fusion results, system design, deployment trade-offs, and limitations in an IEEE-style format.
 
 ## Skills demonstrated
 
