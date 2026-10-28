@@ -18,9 +18,12 @@ The project is built around a two-stage visual pipeline: a YOLO11 detector train
 | Macro F1 | **0.899** |
 | Weighted F1 | **0.888** |
 | Strongest classes by F1 | Disgust 0.984, Surprise 0.964, Happy 0.949 |
+| RAVDESS vision-only accuracy | **61.9%** |
+| RAVDESS HuBERT accuracy | **48.0%** zero-shot, after prior correction |
+| RAVDESS multimodal fusion accuracy | **66.7%** (**+4.8 percentage points** over vision-only) |
 | Hardware used | NVIDIA RTX 3080 Laptop GPU |
 
-These values come from the saved notebook run using single-crop inference. The notebook also records the larger Ultralytics validation result (`accuracy_top1 = 0.8922`) and full per-class precision/recall/F1. The RAVDESS notebook is provided as a reproducible evaluation protocol; it does not contain completed outputs and is not presented here as a finished benchmark.
+The FER values come from the saved notebook run using single-crop inference. The notebook also records the larger Ultralytics validation result (`accuracy_top1 = 0.8922`) and full per-class precision/recall/F1. The RAVDESS results are reported in the revised paper; the accompanying evaluation notebook documents the reproducible protocol and fusion ablation workflow.
 
 ![FER-2013 confusion matrix](assets/emotion_recognition_pipeline-01.png)
 
@@ -66,7 +69,7 @@ flowchart LR
 │   ├── emotion_recognition_pipeline.ipynb
 │   └── ravdess_multimodal_evaluation.ipynb
 ├── paper/
-│   └── real-time-multimodal-emotion-recognition-yolo11.pdf
+│   └── real-time-multimodal-emotion-recognition-v2.pdf
 ├── DATASETS.md
 ├── CITATION.cff
 ├── requirements.txt
